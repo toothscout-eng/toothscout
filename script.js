@@ -1,0 +1,3 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');if(menu&&links)menu.addEventListener('click',()=>links.classList.toggle('open'));
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+document.querySelectorAll('form[data-mail]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form),pairs=[...d.entries()].map(([k,v])=>`${k}: ${v}`).join('\n');location.href=`mailto:hello@toothscout.com?subject=${encodeURIComponent(form.dataset.mail)}&body=${encodeURIComponent(pairs)}`}));
