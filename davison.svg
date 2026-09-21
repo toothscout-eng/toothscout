@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="800"
+     viewBox="-40 -40 880 880"
+     fill="none">
+
+    <defs>
+        <linearGradient
+            id="pinGradient"
+            x1="250"
+            y1="320"
+            x2="650"
+            y2="760"
+            gradientUnits="userSpaceOnUse">
+
+            <stop
+                offset="0%"
+                stop-color="#18C6C5"/>
+
+            <stop
+                offset="100%"
+                stop-color="#1EC4D6"/>
+
+        </linearGradient>
+    </defs>
+
+    <!--
+        Left side of the tooth and original inward crown hook.
+        The hook is part of this path, not an overlapping element.
+    -->
+    <path
+        d="
+        M310 640
+        C235 550 170 405 145 280
+        C115 130 195 65 305 70
+        C355 72 400 93 450 130
+        C432 140 416 151 398 160
+        "
+        stroke="#002D6D"
+        stroke-width="34"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+    <!--
+        Right side of the tooth begins at the same crown junction.
+        There is no second shape drawn over the inward hook.
+    -->
+    <path
+        d="
+        M450 130
+        C505 84 555 67 620 70
+        C720 76 785 148 760 280
+        C745 360 715 430 670 485
+        "
+        stroke="#002D6D"
+        stroke-width="34"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+    <!-- Curved inner tooth detail -->
+    <path
+        d="
+        M365 292
+        C420 248 520 248 575 292
+        "
+        stroke="#002D6D"
+        stroke-width="30"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+
+    <!-- Location pin -->
+    <path
+        d="
+        M470 356
+        C380 356 308 428 308 518
+        C308 620 397 726 454 793
+        C463 803 477 803 486 793
+        C543 726 632 620 632 518
+        C632 428 560 356 470 356
+        Z
+        "
+        fill="url(#pinGradient)"/>
+
+    <!-- Location pin centre -->
+    <circle
+        cx="470"
+        cy="510"
+        r="78"
+        fill="#FFFFFF"/>
+
+</svg>
