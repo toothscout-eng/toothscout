@@ -1,0 +1,18 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .dark {
+      fill: #031B4E;
+      font-family: Poppins, Montserrat, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+    .teal {
+      fill: #18C8C8;
+      font-family: Poppins, Montserrat, Arial, sans-serif;
+      font-weight: 700;
+    }
+  </style>
+
+  <text x="20" y="118" font-size="112" class="dark">Tooth</text>
+  <text x="320" y="118" font-size="112" class="teal">Scout</text>
+</svg>
