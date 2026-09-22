@@ -162,5 +162,10 @@
        animation:none !important;
    }
 }
- 
+
+.phone{
+   opacity:1 !important;
+   transition:none !important;
+   animation:none !important;
+}
 
