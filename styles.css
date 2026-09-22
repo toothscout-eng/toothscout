@@ -266,3 +266,24 @@ animation:phoneFloat 6s ease-in-out infinite;
     padding-bottom:12px;
 }
 ``
+
+/* NURSE PAGE ONLY */
+
+.nurse-phone .location-card{
+    min-height:auto !important;
+    padding-bottom:14px !important;
+}
+
+.nurse-phone .map-link{
+    display:inline-block;
+    margin-top:6px;
+    color:#00b8a9;
+    font-size:11px;
+    font-weight:700;
+}
+
+.nurse-phone .reserve-btn{
+    width:78% !important;
+    display:block;
+    margin:14px auto 0 !important;
+}
