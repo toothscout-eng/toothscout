@@ -90,12 +90,12 @@
    top:14px !important;
 }
 @media(max-width:1000px){
-   .demo{
-       grid-template-columns:1fr !important;
-   }
-   .phone{
-       justify-self:center !important;
-   }
+  .demo{
+      grid-template-columns:1fr 420px !important;
+  }
+  .phone{
+      justify-self:end !important;
+  }
 }
 
 /* PHONE CONTENT ENTRANCE ANIMATION
