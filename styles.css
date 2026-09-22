@@ -21,3 +21,26 @@
        margin-top:40px;
    }
 }
+/* Interactive preview layout */
+.demo{
+   display:grid !important;
+   grid-template-columns: 1fr 420px !important;
+   gap: 100px;
+   align-items:center;
+}
+.phone{
+   margin:0 !important;
+   justify-self:center;
+   align-self:center;
+}
+.storyline{
+   margin-bottom:0 !important;
+}
+@media(max-width:1000px){
+   .demo{
+       grid-template-columns:1fr !important;
+   }
+   .phone{
+       margin-top:40px !important;
+   }
+}
