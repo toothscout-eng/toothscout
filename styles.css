@@ -237,3 +237,23 @@ animation:phoneFloat 6s ease-in-out infinite;
     margin-top:14px;
     padding:12px;
 }
+
+
+/* NURSE PAGE ONLY */
+
+.nurse-phone .shift{
+    min-height:60px !important;
+}
+
+.nurse-phone .mini-map{
+    width:65px;
+    height:65px;
+    margin-left:auto;
+    margin-top:6px;
+}
+
+.nurse-phone .reserve-btn{
+    width:82%;
+    display:block;
+    margin:12px auto 0;
+}
