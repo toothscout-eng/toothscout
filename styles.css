@@ -104,8 +104,8 @@
 */
 .phone .app-head,
 .phone .shift{
-   opacity:0;
-   transform:translateY(38px);
+  opacity:1 !important;
+  transform:none !important;
 }
 
 @keyframes phoneContentUp{
