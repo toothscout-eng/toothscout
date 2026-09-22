@@ -97,3 +97,28 @@
        justify-self:center !important;
    }
 }
+/* MOVE PHONE RIGHT */
+
+.container.demo{
+
+    position:relative !important;
+
+}
+
+.phone{
+
+    position:absolute !important;
+
+    right:0 !important;
+
+    top:0 !important;
+
+    width:360px !important;
+
+    height:680px !important;
+
+    transform:none !important;
+
+}
+ 
+
