@@ -149,3 +149,26 @@
        margin-top:40px !important;
    }
 }
+
+/* FORCE PHONE INTO RIGHT COLUMN */
+.container.demo{
+   display:grid !important;
+   grid-template-columns:minmax(0,1fr) 420px !important;
+   gap:80px !important;
+   align-items:center !important;
+}
+.container.demo > .reveal{
+   max-width:none !important;
+}
+.container.demo > .phone{
+   position:relative !important;
+   width:360px !important;
+   height:680px !important;
+   justify-self:end !important;
+   align-self:center !important;
+   margin:0 !important;
+   right:auto !important;
+   top:auto !important;
+   left:auto !important;
+   transform:none !important;
+}
