@@ -107,19 +107,7 @@
    opacity:0;
    transform:translateY(38px);
 }
-/* Animation begins only when JavaScript adds phone-active */
-.phone.phone-active .app-head{
-   animation:phoneContentUp 700ms cubic-bezier(.22,1,.36,1) forwards;
-}
-.phone.phone-active .shift:nth-child(2){
-   animation:phoneContentUp 700ms cubic-bezier(.22,1,.36,1) 180ms forwards;
-}
-.phone.phone-active .shift:nth-child(3){
-   animation:phoneContentUp 700ms cubic-bezier(.22,1,.36,1) 360ms forwards;
-}
-.phone.phone-active .shift:nth-child(4){
-   animation:phoneContentUp 700ms cubic-bezier(.22,1,.36,1) 540ms forwards;
-}
+
 @keyframes phoneContentUp{
    0%{
        opacity:0;
