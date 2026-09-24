@@ -359,3 +359,59 @@ text-align:center;
 0%{transform:translate(0,0) scale(1);}
 100%{transform:translate(-120px,-60px) scale(1.15);}
 }
+
+/* Premium ToothScout particle finish */
+
+.particle-section{
+    background:
+        radial-gradient(
+            circle at 50% 48%,
+            rgba(64,225,239,.12) 0%,
+            rgba(20,128,154,.045) 35%,
+            transparent 65%
+        ),
+        linear-gradient(
+            135deg,
+            #061d2c 0%,
+            #08293b 50%,
+            #041925 100%
+        );
+}
+
+.particle-canvas-wrap{
+    pointer-events:none;
+}
+
+#particleCanvas{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+.particle-content{
+    position:relative;
+    z-index:3;
+}
+
+.particle-section::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    z-index:2;
+    pointer-events:none;
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(5,28,42,.12) 0%,
+            rgba(5,28,42,.2) 30%,
+            transparent 66%
+        );
+}
+
+@media(prefers-reduced-motion:reduce){
+    .particle-section::before{
+        animation:none;
+    }
+}
