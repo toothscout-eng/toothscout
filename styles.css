@@ -421,3 +421,28 @@ body{
     max-width:100%;
     overflow-x:hidden;
 }
+
+@media(max-width:768px){
+
+  .section.dark-section .demo{
+      display:flex !important;
+      flex-direction:column !important;
+      gap:40px !important;
+  }
+
+  .section.dark-section .phone{
+      width:min(320px,90vw) !important;
+      height:auto !important;
+  }
+
+  .section.dark-section .demo h2{
+      font-size:clamp(2.2rem,8vw,3rem) !important;
+      line-height:1.05 !important;
+  }
+
+  .section.dark-section .demo .section-copy{
+      width:100% !important;
+      max-width:none !important;
+  }
+
+}
