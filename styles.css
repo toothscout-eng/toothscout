@@ -415,3 +415,9 @@ text-align:center;
         animation:none;
     }
 }
+html,
+body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
